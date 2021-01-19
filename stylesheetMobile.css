@@ -1,0 +1,35 @@
+@media(max-width: 740px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    #summaryDiv {
+        background-image: url(images/chihuahua-627299_1280.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    #historyDiv {
+        margin-bottom: 0em;
+    }
+    #activitiesDiv {
+        padding: 0;
+    }
+    #activitiesDiv > div {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 1em;
+        margin: 0;
+        border-radius: 0;
+        width: 100%;
+    }
+}
+
+@media(max-height: 500px) {
+
+    #heroDiv{
+        height: 150%;
+    }
+
+}

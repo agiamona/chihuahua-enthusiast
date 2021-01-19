@@ -1,0 +1,120 @@
+@media (max-width: 800px) {
+    #menuButton {
+        display: block;
+        border-style: none;
+        background-color: transparent;
+        position: absolute;
+        top: 0.2em;
+
+        right: 0.2em;
+        font-size: 2em;
+        color: #1D553D;
+    }
+    #closeButton {
+        /*display: inline-block; this settings reveals the close button*/
+        border-style: none;
+        background-color: transparent;
+        color: white;
+        font-size: 2em;
+    }
+    #navMenu {
+        display: none; /*hide the nav menu*/
+    }
+
+    nav ul {
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        background-color: rgba(1,27,16, 0.98);/*#011B10*/
+        width: 100%;
+        margin: 0;
+        padding-top: 2em;
+        padding: 0;
+        min-height: 100%;
+    }
+    nav ul li {
+        display: block;
+        padding: 0;
+    }
+    nav ul li a {
+        display: block;
+        padding: 1em;
+        color: white;
+    }
+    nav ul li a:visited {
+        color: white;
+    }
+    nav ul li a:link {
+        color: white;
+    }
+    nav ul li a:hover {
+        background-color: #1D553D;
+    }
+
+    #heroDiv {
+        height: 100%;
+        width: 100%;
+        padding-top: 5%;
+        
+    }
+
+    /*Large Thumbnail*/
+    #heroDiv > div > a:first-of-type {
+        top: 31%;
+        left: 0%;
+        height: 38%;
+        width: 100%;
+    }
+
+    #heroDiv #columnOne a:first-of-type {
+        top: 0;
+        left: 0%;
+        height: 29%;
+        width: 49%;
+    }
+    #heroDiv #columnOne a:last-of-type {
+        top: 0;
+        left: 51%;
+        height: 29%;
+        width: 49%;
+    }
+    #heroDiv #columnTwo a:first-of-type {
+        top: 71%;
+        left: 0;
+        height: 29%;
+        width: 49%;
+    }
+    #heroDiv #columnTwo a:last-of-type {
+        top: 71%;
+        left: 51%;
+        height: 29%;
+        width: 49%;
+    }
+    .summaryContainer {
+        width: 85%;
+    }
+
+    #historyDiv > div {
+        width: 95%;
+    }
+
+    #traitsDiv > p {
+        width: 90%;
+    }
+
+    .topicContainer {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 2em;
+        float: left;
+    }
+
+    #activitiesDiv > div {
+        width: 95%;
+        padding: 1em;
+        margin: 0;
+        background: rgba(255,255,255, 0.75);
+        border-radius: 0.5em;
+    }
+}

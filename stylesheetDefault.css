@@ -1,0 +1,378 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+body {
+    font-family: 'Droid Serif', 'Times New Roman', serif;
+    background-image: url(images/chihuahua-627299_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h2,h3,h4,h5,h6 {
+    color: #1D553D;
+}
+a {
+    font-weight: bold;
+}
+a:link {
+    color:#1D553D; 
+}
+a:visited {
+    color:#1D553D; 
+}
+a:hover {
+    color: #75AF96;
+}
+
+h1 {
+    float: left;
+    text-align: center;
+    font-family: 'Courgette', 'Times New Roman', serif;
+    padding: 10px 5px;
+    margin:0;
+}
+h1 a {
+    text-decoration: none;
+    color: #1D553D;
+}
+nav {
+    display: block;
+    background-color: white;
+    min-height: 3em;
+}
+#menuButton, #closeButton {
+    display:none;
+}
+nav ul {
+    display: block;
+    margin: 0;
+    padding-right: 2em;    
+    text-align: right;
+    list-style-type: none;
+    
+}
+nav li {
+    display: inline-block;
+    padding: 1em;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+nav a:link {
+        color: #1D553D;
+}
+nav a:visited {
+        color: #1D553D;   
+}
+nav a:hover {
+    color: #75AF96;
+}
+
+#heroDiv {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 90%;
+    width: 100%;
+    background-color:#2b3f36;
+    padding-top: 5%;
+    
+}
+#heroDiv > div{
+    position: relative;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    
+}
+
+#columnOne {
+    width: 49%;
+}
+#columnTwo {
+    width: 49%;
+}
+
+#heroDiv a h2{
+    color:#ffffff;
+    text-decoration: none;
+}
+#heroDiv a:visited h2 {
+    color:#ffffff;    
+}
+#heroDiv a:hover h2 {
+    color:#75AF96; 
+}
+/*Text in thumbnails*/
+#heroDiv a > h2{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    text-align: right;
+    margin: 0;
+    padding: .5em;
+    text-shadow: 2px 2px #000000;
+}
+
+/*Large thumbnail*/
+#heroDiv > div > a:first-of-type {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    height: 100%;
+    width: 50%;
+  
+    background-image: url(images/chihuahuas-530262_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+#heroDiv > div > a:first-of-type:hover {
+    background: -webkit-linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/chihuahuas-530262_1280.jpg) no-repeat center;
+    background: -moz-linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/chihuahuas-530262_1280.jpg) no-repeat center;
+    background: -o-linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/chihuahuas-530262_1280.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/chihuahuas-530262_1280.jpg) no-repeat center;
+    background-size: cover;
+}
+
+  
+#heroDiv #columnOne a:first-of-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 59%;
+    width: 19%;
+    background-image: url(images/longhair.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+#heroDiv #columnOne a:first-of-type:hover {
+    background: -webkit-linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(images/longhair.jpg) no-repeat center;
+    background: -moz-linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(images/longhair.jpg) no-repeat center;
+    background: -o-linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(images/longhair.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(images/longhair.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#heroDiv #columnOne a:last-of-type {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 38%;
+    width: 19%;
+    background-image: url(images/chihuahua-981188_640.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+#heroDiv #columnOne a:last-of-type:hover {
+    background: -webkit-linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/chihuahua-981188_640.jpg) no-repeat center;
+    background: -moz-linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/chihuahua-981188_640.jpg) no-repeat center;
+    background: -o-linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/chihuahua-981188_640.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/chihuahua-981188_640.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+#heroDiv #columnTwo a:first-of-type {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 59%;
+    width: 28%;
+    background-image: url(images/burts-bees-983694_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+#heroDiv #columnTwo a:first-of-type:hover {
+    background: -webkit-linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/burts-bees-983694_1920.jpg) no-repeat center;
+    background: -moz-linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/burts-bees-983694_1920.jpg) no-repeat center;
+    background: -o-linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/burts-bees-983694_1920.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/burts-bees-983694_1920.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#heroDiv #columnTwo a:last-of-type {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 39%;
+    width: 28%;
+    background-image: url(images/animal-1846787_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+#heroDiv #columnTwo a:last-of-type:hover {
+    background: -webkit-linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/animal-1846787_1280.jpg) no-repeat center;
+    background: -moz-linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/animal-1846787_1280.jpg) no-repeat center;
+    background: -o-linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/animal-1846787_1280.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),  url(images/animal-1846787_1280.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+
+#summaryDiv {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 60%; 
+    padding: 2em;
+}
+.summaryContainer {
+    padding: 2em;
+    width: 60%;
+    margin: auto;  
+    background-color: rgba(249,253,251, 0.6); /*#f9fdfb; */
+    border-radius: 8px;
+}
+#summaryDiv ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#summaryDiv ul li {
+    background-color: #d7dfdb;
+    border-left: 8px solid #1D553D;
+    padding:0.5em 0.8em;
+    margin: 0.8em;
+    font-size: 1.1em;
+}
+#summaryDiv ul li p {
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+#historyDiv {
+    background-color: #f9fdfb; 
+    padding: 2em;
+    text-align: justify;
+    margin-bottom: 10em;
+}
+#historyDiv > div {
+    width: 60%;
+    margin: auto;
+}
+
+#traitsDiv {
+    margin: 0;
+    padding: 2em;
+    background-color: #38423d;
+    color: white;
+    float: left;
+    text-align: justify;
+}
+#traitsDiv h3 {
+    clear: both;
+    padding: 2em 0;
+    text-align: center;
+}
+#traitsDiv > p {
+    width: 60%;
+}
+
+#traitsDiv h2,#traitsDiv h3,#traitsDiv h4 {
+    margin: 0;
+    color: white;
+}
+
+.topicContainer {
+    width: 25%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    float: left;
+}
+.thumbnail {
+    width: 97%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#peek {
+    clear: both;
+    height: 70%;
+    background-image: url(images/chihuahua-lyingdown.jpg);
+    background-attachment: fixed;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#activitiesDiv {
+    background: url("images/activities background_sm.jpg") top right;
+    background-size: cover;
+    padding: 4em 2em;
+}
+#activitiesDiv > div {
+    width: 60%;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+#tagline {
+    margin-top: 0.2em;
+    padding-left: 4em;
+    font-style: italic;
+	color: #1D553D;
+}
+#navFooter{
+
+    border-top: slategray 1px solid;
+    background-color: white;
+    padding: 1em 7em;
+}
+#navFooter a {
+    text-decoration: none;
+}
+#navFooter h3 {
+    padding: 0;
+    margin-top: 0.3;
+    font-weight: normal;
+}
+#navFooter a, #navFooter a:visited {
+    color: darkslategray;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+#navFooter a:hover {
+    color: black;
+    font-weight: normal;
+}
+#navFooter ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+#navFooter li {
+    margin: 0.9em 0;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 0.7em;
+    border-top: slategray 1px solid;
+}
+
